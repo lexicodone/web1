@@ -30,7 +30,7 @@ header {
 .topnav {
     overflow: hidden;
     background-color: #; /* Dark blue background */
-    border-radius:20px
+    border-radius:15px
 }
 
 .topnav a {
@@ -41,7 +41,7 @@ header {
     padding: 14px 16px;
     text-decoration: none;
     font-weight: bold;
-    border-radius:20px
+    border-radius:15px
 }
 
 .topnav a:hover {
