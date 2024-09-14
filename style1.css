@@ -24,6 +24,7 @@ header {
 .logo img {
     max-width: 150px;
     border-radius: 10px; /* Rounded corners for the logo */
+    height:50px
 }
 
 /* Top Navigation Bar */
