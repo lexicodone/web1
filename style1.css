@@ -23,13 +23,14 @@ header {
 
 .logo img {
     max-width: 150px;
-    border-radius: 5px; /* Rounded corners for the logo */
+    border-radius: 10px; /* Rounded corners for the logo */
 }
 
 /* Top Navigation Bar */
 .topnav {
     overflow: hidden;
-    background-color: #47ff50; /* Dark blue background */
+    background-color: #; /* Dark blue background */
+    border-radius:20px
 }
 
 .topnav a {
