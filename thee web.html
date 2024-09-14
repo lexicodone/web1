@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skies Properties</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <!-- Logo section -->
+            <img src="C:\Users\User\OneDrive\Documents\VICKTO\logo.jpg" alt="Skies Properties Logo">
+        </div>
+        <!-- Top Navigation Bar -->
+        <nav class="topnav">
+            <a href="#for-sale">For Sale</a>
+            <a href="#to-let">To Let</a>
+            <a href="#development">Development</a>
+            <a href="#homes">Homes</a>
+        </nav>
+    </header>
+
+    <!-- Side Navigation Bar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home"> Home</a>
+        <a href="#join-community"> Join Community</a>
+        <a href="#agencies">Agencies</a>
+        <a href="#contacts"> Contact Us</a>
+        <!-- Social Media Icons -->
+        <div class="social-media">
+            <a href="https://www.instagram.com" target="_blank"><img src="1.jpeg" alt="instagram"></a>
+            <a href="https://wa.me" target="_blank"><img src="2.jpeg" alt="WhatsApp"></a>
+            <a href="https://twitter.com" target="_blank"><img src="3.jpeg" alt="Twitter"></a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <span class="menu-toggle" onclick="openNav()">&#9776; Skies Properties</span>
+
+        <!-- Images Section -->
+        <div class="images-section">
+            <img src="9.jpg" alt="Image 1">
+            <img src="4.1.jpg" alt="Image 2">
+            <img src="3.1.jpg" alt="Image 3">
+        </div>
+
+        <!-- Divided Section -->
+        <div class="divided-section">
+            <div class="column" style="background-color: #bbb;">
+                <h2>About us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit officiis aut adipisci laboriosam, ipsum quasi tempore commodi, rerum minima illum molestias, odit similique quod. Illo neque laudantium modi, rerum minus numquam sapiente saepe eaque. Fugiat sunt adipisci omnis quibusdam recusandae! Quisquam dolorum deserunt velit a quaerat nobis natus quam repudiandae!r</p>
+            </div>
+            <div class="column" style="background-color: #ccc;">
+                <h2>ANY OTHER TEXT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, doloremque in ipsum eius nam soluta officiis ipsam consequatur aliquam omnis ad vel quam sit fugiat magni quibusdam cum ex commodi repudiandae porro enim voluptatum. Ipsa minus quam officiis inventore quas beatae quibusdam eveniet soluta, modi architecto libero provident, exercitationem consequatur.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+</body>
+</html>
